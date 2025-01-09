@@ -1,0 +1,42 @@
+name: siap
+description: 'A new Flutter project.'
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  heroicons: ^0.10.0
+  intl: ^0.18.1
+  get: ^4.6.6
+  smooth_page_indicator: ^1.2.0+3
+  fl_chart: ^0.70.0
+  carousel_slider: ^5.0.0
+  flutter_svg: ^2.0.16
+  google_fonts: ^6.2.1
+  flutter_dash: ^1.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/profile.jpg 
+    - lib/assets/fonts/
+    - lib/assets/images/ 
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-Regular.ttf
+        - asset: lib/assets/fonts/Montserrat-Bold.ttf
+          weight: 700
